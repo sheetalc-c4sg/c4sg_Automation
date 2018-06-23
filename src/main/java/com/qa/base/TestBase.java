@@ -1,4 +1,4 @@
-package com.crm.qa.base;
+package com.qa.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,7 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import com.crm.qa.util.TestUtil;
+
+import com.qa.util.TestUtil;
 
 public class TestBase {
 	
@@ -18,7 +19,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm"
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com"
 					+ "/qa/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {

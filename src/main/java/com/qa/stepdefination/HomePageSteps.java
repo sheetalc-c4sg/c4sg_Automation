@@ -1,9 +1,9 @@
-package com.crm.qa.stepdefination;
-
-import com.crm.qa.pages.HomePage;
+package com.qa.stepdefination;
 
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
+
+import com.qa.pages.HomePage;
 
 
 public class HomePageSteps {

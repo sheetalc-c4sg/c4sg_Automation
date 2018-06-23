@@ -1,8 +1,8 @@
-package com.crm.qa.util;
+package com.qa.util;
 
 
 
-import com.crm.qa.base.TestBase;
+import com.qa.base.TestBase;
 
 public class TestUtil extends TestBase{
 	

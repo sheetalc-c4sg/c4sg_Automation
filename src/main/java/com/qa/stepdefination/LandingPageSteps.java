@@ -1,9 +1,10 @@
-package com.crm.qa.stepdefination;
+package com.qa.stepdefination;
 
 import org.junit.Assert;
 
-import com.crm.qa.base.TestBase;
-import com.crm.qa.pages.LandingPage;
+import com.qa.base.TestBase;
+import com.qa.pages.LandingPage;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 

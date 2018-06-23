@@ -1,9 +1,9 @@
-package com.crm.qa.stepdefination;
+package com.qa.stepdefination;
 
 import org.junit.Assert;
 
-import com.crm.qa.base.TestBase;
-import com.crm.qa.pages.SignInPage;
+import com.qa.base.TestBase;
+import com.qa.pages.SignInPage;
 
 import cucumber.api.java.en.Then;
 
